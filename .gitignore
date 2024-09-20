@@ -18,3 +18,7 @@ tags
 
 # macOS
 .DS_Store
+
+# custom
+*.spv
+build/
