@@ -19,6 +19,9 @@ cmake_minimum_required(VERSION 3.16)
 
 project(framework LANGUAGES C CXX)
 
+# generate compile_commands.json
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(FRAMEWORK_FILES
     # Header Files
     gui.h
